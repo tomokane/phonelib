@@ -27,7 +27,7 @@ module Phonelib
       # alternate formats data file in repo
       FORMATS_FILE = 'resources/PhoneNumberAlternateFormats.xml'
       # geocoding data dir in repo
-      GEOCODING_DIR = 'resources/geocoding/en/'
+      GEOCODING_DIR = 'resources/geocoding/ja/'
       # carrier data dir in repo
       CARRIER_DIR = 'resources/carrier/en/'
       # timezones data dir in repo
