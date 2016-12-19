@@ -322,8 +322,8 @@ describe Phonelib do
 
   context 'extended data' do
     it 'should have geo_name' do
-      phone = Phonelib.parse('12015551234')
-      expect(phone.geo_name).to eq('New Jersey')
+      phone = Phonelib.parse('81312345678')
+      expect(phone.geo_name).to eq('東京')
     end
 
     it 'should have timezone' do
@@ -437,7 +437,7 @@ describe Phonelib do
       expect(number.valid?).to be_true
       expect(number.international).to eq('+49 2304 973401')
       expect(number.national).to eq('02304 973401')
-      expect(number.geo_name).to eq('Schwerte')
+      expect(number.geo_name).to be_nil
     end
   end
 
